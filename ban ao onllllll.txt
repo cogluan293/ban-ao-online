@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cửa Hàng Bán Áo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+        }
+        nav a:hover {
+            background-color: #555;
+            padding: 5px;
+        }
+        .banner {
+            text-align: center;
+            background-color: #ddd;
+            padding: 50px 0;
+        }
+        .banner h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 30%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cửa Hàng Bán Áo Online</h1>
+    </header>
+
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Khuyến mãi</a>
+        <a href="#">Liên hệ</a>
+    </nav>
+
+    <div class="banner">
+        <h2>Chào Mừng Bạn Đến Với Cửa Hàng Bán Áo</h2>
+        <p>Chúng tôi cung cấp những mẫu áo đẹp nhất với giá cả hợp lý</p>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Áo 1">
+            <h3>Áo Thun Nam</h3>
+            <p>Giá: 200,000 VND</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Áo 2">
+            <h3>Áo Sơ Mi Nữ</h3>
+            <p>Giá: 300,000 VND</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Áo 3">
+            <h3>Áo Hoodie Unisex</h3>
+            <p>Giá: 500,000 VND</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cửa Hàng Bán Áo. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
